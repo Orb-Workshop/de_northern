@@ -1,6 +1,16 @@
 <!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 
+	"CT_Snow.StepLeft" =
+	{
+  	volume = 0.7
+	}
+
+	"T_Snow.StepLeft" =
+	{
+  	volume = 0.7
+	}
+
 // For soundevents to compile into the addon, this file must be kept named as soundevents_addon.vsndevts and all new soundevents should be added to this file. 
 
 // A soundevent in CS2 is a container that can host a combination of sound parameters, vsnds (.wavs), and other soundevents. Soundevents can be used to trigger other soundevents and therefore small hierarchies can be created if needed. For most ambient sounds in CS2, we use soundevents in small hierarchical structures (parent/child/grandchildren) for each area in a map.
@@ -45,6 +55,8 @@
 //reverb_23_smallBathroom
 //reverb_24_largeBathroom
  
+
+
 	"ambient_example.outdoors" = 
 	{
 		base = "amb.soundscapeParent.base"
