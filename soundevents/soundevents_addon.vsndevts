@@ -1,22 +1,22 @@
 <!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
 
-	"CT_Snow.StepLeft" =
-	{
-  		volume = 0.85
-	}
+    "CT_Snow.StepLeft" =
+    {
+          volume = 0.85
+    }
 
-	"T_Snow.StepLeft" =
-	{
-  		volume = 0.85
-	}
+    "T_Snow.StepLeft" =
+    {
+          volume = 0.85
+    }
 
-        "northern.Hum1" =
-        {
-                base = "millport.LightHum"
-                volume = 0.5
-                pitch = 0.1
-        }
+    "northern.Hum1" =
+    {
+          base = "millport.LightHum"
+          volume = 0.5
+          pitch = 0.1
+    }
 
 // For soundevents to compile into the addon, this file must be kept named as soundevents_addon.vsndevts and all new soundevents should be added to this file. 
 
