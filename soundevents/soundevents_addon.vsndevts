@@ -3,13 +3,472 @@
 
     "CT_Snow.StepLeft" =
     {
-          volume = 0.85
+          base = "Base.Footstep"
+		block_matching_events = true
+		block_match_entity = true
+		mixgroup = "Footsteps"
+		block_duration = 0.150000
+		use_distance_volume_mapping_curve = true
+		volume_random_min = 0.000000
+		volume_random_max = 0.000000
+		volume = 0.850000
+		pitch = 0.980000
+		pitch_random_min = -0.070000
+		pitch_random_max = 0.010000
+		use_fadetime_volume_mapping_curve = false
+		block_distance = 0.000000
+		enable_child_events = false
+		reverb_wet = 1.000000
+		use_world_position = true
+		use_entity_position_if_local_player = true
+		occlusion_intensity = 0.375000
+		position_offset = 
+		[
+			0.000000,
+			0.000000,
+			20.000000,
+		]
+		display_broadcast = true
+		use_distance_unfiltered_stereo_mapping_curve = true
+		instance_limit = 0.000000
+		use_time_volume_mapping_curve = false
+		occlusion_frequency_scale = 0.998000
+		distance_effect_mix = 0.600000
+		soundevent_01 = ""
+		distance_volume_mapping_curve = 
+		[
+ 
+			[
+				49.591427,
+				0.450000,
+				0.010452,
+				0.010452,
+				3.000000,
+				1.000000,
+			],
+ 
+			[
+				116.563492,
+				1.000000,
+				-0.001429,
+				-0.001429,
+				2.000000,
+				3.000000,
+			],
+ 
+			[
+				402.285736,
+				0.488971,
+				-0.000991,
+				-0.000991,
+				3.000000,
+				1.000000,
+			],
+ 
+			[
+				1095.000000,
+				0.030000,
+				-0.000701,
+				-0.000701,
+				1.000000,
+				1.000000,
+			],
+ 
+			[
+				1100.000000,
+				0.000000,
+				-0.000476,
+				-0.000476,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/player/footsteps/snow_01.vsnd",
+			"sounds/player/footsteps/snow_02.vsnd",
+			"sounds/player/footsteps/snow_03.vsnd",
+			"sounds/player/footsteps/snow_04.vsnd",
+			"sounds/player/footsteps/snow_05.vsnd",
+			"sounds/player/footsteps/snow_06.vsnd",
+			"sounds/player/footsteps/snow_07.vsnd",
+			"sounds/player/footsteps/snow_08.vsnd",
+			"sounds/player/footsteps/snow_09.vsnd",
+			"sounds/player/footsteps/snow_10.vsnd",
+			"sounds/player/footsteps/snow_11.vsnd",
+		]
+		metadata = "loudfs 1600"
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+ 
+			[
+				50.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+ 
+			[
+				60.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+ 
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+ 
+			[
+				0.162857,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+ 
+			[
+				0.000000,
+				1.000000,
+				-1.377315,
+				-1.377315,
+				2.000000,
+				3.000000,
+			],
+ 
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 0.873742
     }
 
     "T_Snow.StepLeft" =
     {
-          volume = 0.85
+
+     base = "Base.Footstep"
+		block_matching_events = true
+		block_match_entity = true
+		mixgroup = "Footsteps"
+		block_duration = 0.150000
+		use_distance_volume_mapping_curve = true
+		volume_random_min = 0.000000
+		volume_random_max = 0.000000
+		volume = 0.85
+		pitch = 0.980000
+		pitch_random_min = -0.070000
+		pitch_random_max = 0.010000
+		use_fadetime_volume_mapping_curve = false
+		block_distance = 0.000000
+		enable_child_events = false
+		reverb_wet = 1.000000
+		use_world_position = true
+		use_entity_position_if_local_player = true
+		occlusion_intensity = 0.375000
+		position_offset = 
+		[
+			0.000000,
+			0.000000,
+			20.000000,
+		]
+		display_broadcast = true
+		use_distance_unfiltered_stereo_mapping_curve = true
+		instance_limit = 0.000000
+		use_time_volume_mapping_curve = false
+		occlusion_frequency_scale = 0.998000
+		distance_effect_mix = 0.600000
+		soundevent_01 = ""
+		distance_volume_mapping_curve = 
+		[
+ 
+			[
+				49.591427,
+				0.450000,
+				0.010452,
+				0.010452,
+				3.000000,
+				1.000000,
+			],
+ 
+			[
+				116.563492,
+				1.000000,
+				-0.001429,
+				-0.001429,
+				2.000000,
+				3.000000,
+			],
+ 
+			[
+				402.285736,
+				0.488971,
+				-0.000991,
+				-0.000991,
+				3.000000,
+				1.000000,
+			],
+ 
+			[
+				1095.000000,
+				0.030000,
+				-0.000701,
+				-0.000701,
+				1.000000,
+				1.000000,
+			],
+ 
+			[
+				1100.000000,
+				0.000000,
+				-0.000476,
+				-0.000476,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/player/footsteps/snow_01.vsnd",
+			"sounds/player/footsteps/snow_02.vsnd",
+			"sounds/player/footsteps/snow_03.vsnd",
+			"sounds/player/footsteps/snow_04.vsnd",
+			"sounds/player/footsteps/snow_05.vsnd",
+			"sounds/player/footsteps/snow_06.vsnd",
+			"sounds/player/footsteps/snow_07.vsnd",
+			"sounds/player/footsteps/snow_08.vsnd",
+			"sounds/player/footsteps/snow_09.vsnd",
+			"sounds/player/footsteps/snow_10.vsnd",
+			"sounds/player/footsteps/snow_11.vsnd",
+		]
+		metadata = "loudfs 1600"
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+ 
+			[
+				50.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+ 
+			[
+				60.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		time_volume_mapping_curve = 
+		[
+ 
+			[
+				0.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+ 
+			[
+				0.162857,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		fadetime_volume_mapping_curve = 
+		[
+ 
+			[
+				0.000000,
+				1.000000,
+				-1.377315,
+				-1.377315,
+				2.000000,
+				3.000000,
+			],
+ 
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 0.873742
     }
+
+    Land_Snow.StepLeft = 
+	{
+		base = "Base.Land"
+		block_matching_events = true
+		block_match_entity = true
+		mixgroup = "Footsteps"
+		block_duration = 0.150000
+		use_distance_volume_mapping_curve = true
+		volume_random_min = -0.100000
+		volume_random_max = 0.000000
+		use_fadetime_volume_mapping_curve = false
+		use_distance_unfiltered_stereo_mapping_curve = true
+		pitch_random_min = -0.060000
+		pitch_random_max = 0.060000
+		volume = 0.850000
+		block_distance = 0.000000
+		reverb_wet = 1.000000
+		use_world_position = true
+		use_entity_position_if_local_player = true
+		occlusion_intensity = 0.375000
+		position_offset = 
+		[
+			0.000000,
+			0.000000,
+			20.000000,
+		]
+		display_broadcast = true
+		instance_limit = 0.000000
+		occlusion_frequency_scale = 0.998000
+		distance_effect_mix = 0.600000
+		distance_volume_mapping_curve = 
+		[
+ 
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				3.000000,
+				1.000000,
+			],
+ 
+			[
+				37.428570,
+				1.000000,
+				-0.002865,
+				-0.002865,
+				2.000000,
+				3.000000,
+			],
+ 
+			[
+				389.257111,
+				0.378676,
+				-0.000903,
+				-0.000903,
+				3.000000,
+				1.000000,
+			],
+ 
+			[
+				1090.000000,
+				0.050000,
+				-0.000476,
+				-0.000476,
+				2.000000,
+				3.000000,
+			],
+ 
+			[
+				1100.000000,
+				0.000000,
+				-0.005000,
+				-0.005000,
+				0.000000,
+				1.000000,
+			],
+		]
+		vsnd_files_track_01 = 
+		[
+			"sounds/player/footsteps/land_snow_01.vsnd",
+			"sounds/player/footsteps/land_snow_02.vsnd",
+			"sounds/player/footsteps/land_snow_03.vsnd",
+			"sounds/player/footsteps/land_snow_04.vsnd",
+			"sounds/player/footsteps/land_snow_05.vsnd",
+			"sounds/player/footsteps/land_snow_06.vsnd",
+		]
+		distance_unfiltered_stereo_mapping_curve = 
+		[
+ 
+			[
+				0.000000,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+ 
+			[
+				50.657143,
+				1.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+ 
+			[
+				90.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		metadata = "loudfs 1600"
+		fadetime_volume_mapping_curve = 
+		[
+ 
+			[
+				0.000000,
+				1.000000,
+				-1.377315,
+				-1.377315,
+				2.000000,
+				3.000000,
+			],
+ 
+			[
+				1.000000,
+				0.000000,
+				0.000000,
+				0.000000,
+				2.000000,
+				3.000000,
+			],
+		]
+		vsnd_duration = 1.171338
+	}
 
     "northern.Hum1" =
     {
