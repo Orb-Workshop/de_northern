@@ -5,7 +5,7 @@ Layer0
 	shader "csgo_simple.vfx"
 
 	//---- Ambient Occlusion ----
-	TextureAmbientOcclusion "materials/concrete_floor_02_2k/textures/concrete_floor_02_ao_2k.jpg"
+	TextureAmbientOcclusion "materials/concrete_floor_02_2k/concrete_floor_02_ao_2k.jpg"
 
 	//---- Color ----
 	g_flModelTintAmount "1.000"
@@ -17,17 +17,17 @@ Layer0
 	g_vTexCoordOffset "[0.000 0.000]"
 	g_vTexCoordScale "[1.000 1.000]"
 	g_vTexCoordScrollSpeed "[0.000 0.000]"
-	TextureColor "materials/concrete_floor_02_2k/textures/concrete_floor_02_diff_2k.jpg"
+	TextureColor "materials/concrete_floor_02_2k/concrete_floor_02_diff_2k.jpg"
 
 	//---- Fog ----
 	g_bFogEnabled "1"
 
 	//---- Lighting ----
 	g_flMetalness "0.000"
-	TextureRoughness "materials/concrete_floor_02_2k/textures/concrete_floor_02_rough_2k.jpg"
+	TextureRoughness "materials/concrete_floor_02_2k/concrete_floor_02_rough_2k.jpg"
 
 	//---- Normal Map ----
-	TextureNormal "materials/concrete_floor_02_2k/textures/concrete_floor_02_nor_dx_2k.jpg"
+	TextureNormal "materials/concrete_floor_02_2k/concrete_floor_02_nor_dx_2k.jpg"
 
 	//---- Texture Address Mode ----
 	g_nTextureAddressModeU "0" // Wrap
