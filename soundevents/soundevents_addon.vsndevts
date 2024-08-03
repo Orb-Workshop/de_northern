@@ -11,7 +11,7 @@
 		use_distance_volume_mapping_curve = true
 		volume_random_min = 0.000000
 		volume_random_max = 0.000000
-		volume = 0.850000
+		volume = 0.800000
 		pitch = 0.980000
 		pitch_random_min = -0.070000
 		pitch_random_max = 0.010000
@@ -175,7 +175,7 @@
 		use_distance_volume_mapping_curve = true
 		volume_random_min = 0.000000
 		volume_random_max = 0.000000
-		volume = 0.85
+		volume = 0.80
 		pitch = 0.980000
 		pitch_random_min = -0.070000
 		pitch_random_max = 0.010000
@@ -342,7 +342,7 @@
 		use_distance_unfiltered_stereo_mapping_curve = true
 		pitch_random_min = -0.060000
 		pitch_random_max = 0.060000
-		volume = 0.850000
+		volume = 0.800000
 		block_distance = 0.000000
 		reverb_wet = 1.000000
 		use_world_position = true
