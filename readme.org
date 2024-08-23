@@ -1,1 +1,36 @@
 * de_northern - CS2 Defusal Map
+
+[[https://steamcommunity.com/sharedfiles/filedetails/?id=3275630887][Steam Workshop Page]]
+
+- If you would like to become a contributor, please contact me, @benzap
+- I will also accept pull requests, and your contributions will be noted.
+
+* Tasks
+  - [ ] Split up map into prefabs (High Priority)
+  - [ ] Encapsulate map in skybox material for more accurate VIS
+  - [ ] Create Materials [/]
+    - [ ] Snow
+    - [ ] Dirt
+    - [ ] Gravel
+    - [ ] Ice
+  - [ ] Create Audio [/]
+    - [ ] Snow Crunch (walk)
+    - [ ] Snow Crunch (jump)
+    - [ ] Snow Crunch (land)
+    - [ ] Dirt Crunch (walk)
+    - [ ] Dirt Crunch (jump)
+    - [ ] Dirt Crunch (land)
+    - [ ] Gravel Crunch (walk)
+    - [ ] Gravel Crunch (jump)
+    - [ ] Gravel Crunch (land)
+    - [ ] Ice Crunch (walk)
+    - [ ] Ice Crunch (jump)
+    - [ ] Ice Crunch (land)
+
+  - [ ] Detailing
+  - [ ] Detailing
+  - [ ] Lighting / Visibility
+  - [ ] Lighting / Visibility
+
+* Contributors
+  /Nothing here... yet/
