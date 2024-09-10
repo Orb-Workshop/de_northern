@@ -1,0 +1,191 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "csgo_water_fancy.vfx"
+
+	//---- Interaction Effects ----
+	F_INTERACTION_EFFECTS 1
+
+	//---- Reflection ----
+	F_REFLECTION_TYPE 2 // SSR over Environment Cube Map
+
+	//---- Refraction ----
+	F_CAUSTICS 1
+	F_REFRACTION 1
+
+	//---- Caustics ----
+	g_bUseTriplanarCaustics "0"
+	g_flCausticDepthFallOffDistance "150.000"
+	g_flCausticDistortion "0.500"
+	g_flCausticShadowCutOff "0.200"
+	g_flCausticSharpness "0.800"
+	g_flCausticsStrength "8.000"
+	g_flCausticUVScaleMultiple "3.000"
+	g_vCausticsTint "[0.501961 0.501961 0.501961 1.000000]"
+
+	//---- Color ----
+	g_flTexCoordRotation "0.000"
+	g_nScaleTexCoordUByModelScaleAxis "0" // None
+	g_nScaleTexCoordVByModelScaleAxis "0" // None
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vTexCoordCenter "[0.500 0.500]"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	g_vTexCoordScrollSpeed "[0.000 0.000]"
+	TextureColor "[1.000000 1.000000 1.000000 0.000000]"
+
+	//---- Debris ----
+	g_flDebrisOilyness "0.000"
+	g_flDebrisReflectance "0.100"
+	g_flDebrisScale "400.000"
+	g_flDebrisWobble "0.250"
+	g_vDebrisTint "[1.000000 1.000000 1.000000 0.000000]"
+	TextureDebris "materials/blackout_water_frozen/frozenwater_tiling.png"
+	TextureDebrisHeight "materials/blackout_water_frozen/frozenwater_tiling_height.png"
+	TextureDebrisNormal "materials/blackout_water_frozen/frozenwater_tiling_bump.png"
+
+	//---- Foam ----
+	g_flFoamScale "400.000"
+	g_flFoamWobble "1.504"
+	g_vFoamColor "[0.000000 0.000000 0.000000 1.000000]"
+	TextureFoam "materials/blackout_water_frozen/water_foam_mask.png"
+	TextureFoamNormal "[0.501961 0.501961 1.000000 0.000000]"
+
+	//---- Fog ----
+	g_bFogEnabled "1"
+
+	//---- Interaction Effects ----
+	g_flWaterEffectCausticStrength "1.000"
+	g_flWaterEffectDisturbanceStrength "1.000"
+	g_flWaterEffectFoamStrength "1.000"
+	g_flWaterEffectSiltStrength "1.000"
+	g_flWaterEffectsRippleStrength "1.000"
+
+	//---- Map Settings ----
+	g_flSkyBoxFadeRange "0.100"
+	g_flSkyBoxScale "16.000"
+	g_vMapUVMax "[10241.000 10241.000]"
+	g_vMapUVMin "[-10271.999 -10198.996]"
+
+	//---- Reflections ----
+	g_flEnvironmentMapBrightness "1.000"
+	g_flGlossiness "1.000"
+	g_flLowEndCubeMapIntensity "1.000"
+	g_flReflectance "0.100"
+	g_flReflectionDistanceEffect "0.250"
+	g_flSSRBoost "0.000"
+	g_flSSRBoostThreshold "1.000"
+	g_flSSRBrightness "1.000"
+	g_flSSRMaxThickness "1.370"
+	g_flSSRSampleJitter "0.003"
+	g_flSSRStepSize "0.060"
+	g_nSSRMaxForwardSteps "40"
+	TextureLowEndCubeMap "materials/default/default_cube.pfm"
+
+	//---- Refractions ----
+	g_flRefractionLimit "0.100"
+	g_flUnderwaterDarkening "0.600"
+	g_flWaterDecayStrength "9.000"
+	g_flWaterFogShadowStrength "0.750"
+	g_flWaterFogStrength "1.500"
+	g_flWaterMaxDepth "1.000"
+	g_vWaterDecayColor "[0.000000 0.329412 0.486275 1.000000]"
+	g_vWaterFogColor "[0.003922 0.376471 0.580392 1.000000]"
+
+	//---- Specular ----
+	g_flSpecularBloomBoostStrength "100.000"
+	g_flSpecularBloomBoostThreshold "0.700"
+	g_flSpecularNormalMultiple "2.000"
+	g_flSpecularPower "300.000"
+
+	//---- Texture Address Mode ----
+	g_nTextureAddressModeU "0" // Wrap
+	g_nTextureAddressModeV "0" // Wrap
+
+	//---- Vertex Paint Values ----
+	g_flDebrisMax "0.700"
+	g_flDebrisMin "0.220"
+	g_flFoamMax "1.000"
+	g_flFoamMin "0.000"
+	g_flWaterRoughnessMax "0.600"
+	g_flWaterRoughnessMin "0.300"
+
+	//---- Waves ----
+	g_flEdgeHardness "100.680"
+	g_flEdgeShapeEffect "1.000"
+	g_flFresnelExponent "7.000"
+	g_flHighFreqWeight "0.300"
+	g_flLowFreqWeight "0.200"
+	g_flMedFreqWeight "0.400"
+	g_flWaterInitialDirection "1.500"
+	g_flWaterPlaneOffset "4.000"
+	g_flWavesHeightOffset "1.300"
+	g_flWavesNormalJitter "0.050"
+	g_flWavesNormalStrength "1.000"
+	g_flWavesPhaseOffset "0.500"
+	g_flWavesSharpness "0.510"
+	g_flWavesSpeed "1.500"
+	g_nWaveIterations "4"
+	g_vWaveScale "[40.000 25.000]"
+	TextureWavesHeight "materials/blackout_water_frozen/water_substance_soft_b5152498_height.png"
+	TextureWavesNormal "materials/blackout_water_frozen/water_substance_soft_normal.png"
+
+	Attributes
+	{
+		mapbuilder.nonsolid "1"
+		mapbuilder.water "1"
+	}
+
+	SystemAttributes
+	{
+		PhysicsSurfaceProperties "water"
+	}
+
+
+	VariableState
+	{
+		"Caustics"
+		{
+		}
+		"Color"
+		{
+		}
+		"Debris"
+		{
+		}
+		"Foam"
+		{
+		}
+		"Fog"
+		{
+		}
+		"Interaction Effects"
+		{
+		}
+		"Map Settings"
+		{
+		}
+		"Reflections"
+		{
+			"Cube Map" 0
+			"SSR" 0
+		}
+		"Refractions"
+		{
+		}
+		"Specular"
+		{
+		}
+		"Texture Address Mode"
+		{
+		}
+		"Vertex Paint Values"
+		{
+		}
+		"Waves"
+		{
+			"Advanced" 0
+		}
+	}
+}
