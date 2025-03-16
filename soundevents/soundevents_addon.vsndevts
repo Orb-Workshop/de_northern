@@ -1,6 +1,5 @@
 <!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
 {
-
     "Northern.Outside.Wind" =
     {
          base = "amb.looping.stereo.base"
@@ -134,7 +133,7 @@
 
     "Northern.Inside.Fireplace" =
     {
-         base = "amb.base"
+         type = "csgo_mega"
          volume = 0.4
          pitch = 0.4
          vsnd_files_track_01 = "sounds/ambience/fireplace_ambience.vsnd"
@@ -144,14 +143,13 @@
     {
          base = "amb.soundscapeParent.base"
          enable_child_events = true
-         volume = 0.6
+         volume = 0.5
          soundevent_01 =
          [
              "Northern.Outside.Wind",
              "Northern.Outside.Wind2",
          ]
     }
-
 
     "CT_Snow.StepLeft" =
     {
