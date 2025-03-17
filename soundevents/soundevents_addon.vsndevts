@@ -20,6 +20,44 @@
          vsnd_files_track_01 = "sounds/ambience/winter_ambience.vsnd"
     }
 
+    "Northern.Outside.WindWhistle1" =
+    {
+         type = "csgo_mega"
+         vsnd_files_track_01 = "sounds/wind/wind_whistle1.vsnd"
+    }
+
+    "Northern.Outside.WindWhistle1_inside" =
+    {
+         type = "csgo_mega"
+         volume = 0.2
+         pitch = 0.8
+         vsnd_files_track_01 = "sounds/wind/wind_whistle1.vsnd"
+    }
+
+    "Northern.Outside.WindWhistle2" =
+    {
+         type = "csgo_mega"
+         vsnd_files_track_01 = "sounds/wind/wind_whistle2.vsnd"
+    }
+
+    "Northern.Outside.MetalCreak1" =
+    {
+         type = "csgo_mega"
+         vsnd_files_track_01 = "sounds/metal/metal_creak1.wav"
+    }
+
+    "Northern.Outside.MetalCreak2" =
+    {
+         type = "csgo_mega"
+         vsnd_files_track_01 = "sounds/metal/metal_creak2.wav"
+    }
+
+    "Northern.Outside.MetalCreak3" =
+    {
+         type = "csgo_mega"
+         vsnd_files_track_01 = "sounds/metal/metal_creak3.wav"
+    }
+
     "Northern.Inside.Base1" =
     {
          base = "amb.looping.stereo.base"
