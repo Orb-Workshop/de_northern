@@ -25,7 +25,6 @@
          type = "csgo_mega"
          vsnd_files_track_01 = "sounds/wind/wind_whistle1.vsnd"
     }
-
     "Northern.Outside.WindWhistle1_inside" =
     {
          type = "csgo_mega"

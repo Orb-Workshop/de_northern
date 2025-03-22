@@ -7,13 +7,13 @@
 
 * Tasks
   - [ ] Split up map into prefabs (High Priority)
-  - [ ] Encapsulate map in skybox material for more accurate VIS
-  - [ ] Create Materials [/]
+  - [X] Encapsulate map in skybox material for more accurate VIS
+  - [ ] Create Materials [0/4]
     - [ ] Snow
     - [ ] Dirt
     - [ ] Gravel
     - [ ] Ice
-  - [ ] Create Audio [/]
+  - [ ] Create Audio [0/12]
     - [ ] Snow Crunch (walk)
     - [ ] Snow Crunch (jump)
     - [ ] Snow Crunch (land)
